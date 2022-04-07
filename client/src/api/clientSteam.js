@@ -2,7 +2,7 @@ import { create } from 'apisauce';
 
 const apiClient = (cancelToken) => create(
     {
-        baseURL : 'http://api.steampowered.com',
+        baseURL : 'https://api.steampowered.com',
         cancelToken
     }
 );
