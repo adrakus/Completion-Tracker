@@ -1,6 +1,6 @@
 import apiClientSteam from './clientSteam';
 
-const API_KEY = '3ACDAEF75D2BB7451F3E8661CAD6F46C';
+const API_KEY = process.env.REACT_APP_STEAM_API_KEY;
 
 const libraryEndpoint = '/IPlayerService/GetOwnedGames/v0001';
 const achievementsEndpoint = '/ISteamUserStats/GetPlayerAchievements/v1';
